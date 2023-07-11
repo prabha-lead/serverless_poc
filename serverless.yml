@@ -1,0 +1,52 @@
+service: user-signup-service
+
+configValidationMode: error
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  memorySize: 256
+  stage: dev
+  profile: default
+  region: 'eu-west-1'
+  environment:
+    SOURCE_EMAIL: 'prabakarsece@gmail.com'
+    SQS_QUEUE_URL: 'https://sqs.eu-west-1.amazonaws.com/876007087343/test-sqs'
+  
+
+functions:
+  signUpUser:
+    handler: src/handlers/signUpUser.signUpUser
+    events:
+      - http:
+          path: signup
+          method: post
+  sendEmail:
+    handler: src/handlers/sendEmail.sendEmail
+    events:
+      - sqs:
+          arn: arn:aws:sqs:eu-west-1:876007087343:test-sqs
+  sendWelcomeEmails:
+    handler: src/handlers/sendWelcomeEmails.sendWelcomeEmails
+    events:
+      - schedule: rate(5 minutes)
+
+resources:
+  Resources:
+    UsersTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: users
+        AttributeDefinitions:
+          - AttributeName: userId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: userId
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 5
+          WriteCapacityUnits: 5
+
+custom:
+  bundle:
+    linting: false
