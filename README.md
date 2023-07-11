@@ -1,4 +1,4 @@
-# Serverless POC
+# Serverless POC - Node Version v16.16.0 & Serverless Framework - 3.33.0
 
 ## Deployment
 
