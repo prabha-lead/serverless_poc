@@ -12,6 +12,8 @@ sls deploy
 sls remove
 ```
 
+## Steps to do before Deployment
+
 ### Set Environment variables for serverless.yaml
 
 ```
