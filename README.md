@@ -22,6 +22,7 @@ sls remove
 environment:
     SOURCE_EMAIL: 'name@domain.com'
     SQS_QUEUE_URL: 'https://sqs.<region>.amazonaws.com/<accountId>/<queue-name>'
+    BUCKET_NAME: 'test-serverless-prabha'
 ```
 
 ### 2. Replacing ARN for sendEmail lambda function in serverless.yaml
@@ -36,4 +37,4 @@ sendEmail:
 
 ### 3. Verify Source Email Address in the SES configuration
 
-### 4. Add DynamoDBFull Access, SES Full Access and SQS Full Access to Role Created from Serverless Configuration in the Role Manager (IAM)
+### 4. Add DynamoDBFull Access, SES Full Access, S3 Full Access and SQS Full Access to Role Created from Serverless Configuration in the Role Manager (IAM)
