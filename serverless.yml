@@ -12,6 +12,7 @@ provider:
   environment:
     SOURCE_EMAIL: 'prabakarsece@gmail.com'
     SQS_QUEUE_URL: 'https://sqs.eu-west-1.amazonaws.com/876007087343/test-sqs'
+    BUCKET_NAME: 'test-serverless-prabha'
   
 
 functions:
