@@ -13,6 +13,8 @@ provider:
     SOURCE_EMAIL: 'prabakarsece@gmail.com'
     SQS_QUEUE_URL: 'https://sqs.eu-west-1.amazonaws.com/876007087343/test-sqs'
     BUCKET_NAME: 'test-serverless-prabha'
+    COGNITO_USER_POOL_ID: 'eu-west-1_1Zi0TS5e2'
+    COGNITO_CLIENT_ID: '3v6ii92cdr2jrt7bh7qgt66css'
   
 
 functions:
@@ -31,6 +33,12 @@ functions:
     handler: src/handlers/sendWelcomeEmails.sendWelcomeEmails
     events:
       - schedule: rate(5 minutes)
+  signInUser:
+    handler: src/handlers/signInUser.signInUser
+    events:
+      - http:
+          path: signin
+          method: post
 
 resources:
   Resources:
