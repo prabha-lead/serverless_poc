@@ -46,12 +46,12 @@ environment:
 
 ### 2. Replacing ARN for sendEmail Lambda Function in serverless.yaml
 
-```
+```yaml
 sendEmail:
-    handler: src/handlers/sendEmail.sendEmail
-    events:
-      - sqs:
-          arn: <Paste SQS ARN>
+  handler: src/handlers/sendEmail.sendEmail
+  events:
+    - sqs:
+        arn: <Paste SQS ARN>
 ```
 
 ### 3. Verify Source Email Address in the SES Configuration
