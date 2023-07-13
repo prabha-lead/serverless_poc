@@ -36,10 +36,10 @@ environment:
 #### Steps to Get Environment Variables
 
 <b>
-1.Verify source email address in SES "Verify Identifier".
-2.Create a Queue in SQS in AWS, then copy URL and ARN to replace in the serverless.yaml file.
-3.Create a Bucket in S3.
-4.Create a User Pool in AWS Cognito and collect Pool ID and Client ID from the App Integration section.
+1.Verify source email address in SES "Verify Identifier". <br>
+2.Create a Queue in SQS in AWS, then copy URL and ARN to replace in the serverless.yaml file.<br>
+3.Create a Bucket in S3.<br>
+4.Create a User Pool in AWS Cognito and collect Pool ID and Client ID from the App Integration section.<br>
 </b>
 
 ### 2. Replacing ARN for sendEmail Lambda Function in serverless.yaml
