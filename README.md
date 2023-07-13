@@ -35,6 +35,8 @@ environment:
 
 #### Steps to Get Environment Variables
 
+#####
+
 <b>
 1.Verify source email address in SES "Verify Identifier". <br>
 2.Create a Queue in SQS in AWS, then copy URL and ARN to replace in the serverless.yaml file.<br>
