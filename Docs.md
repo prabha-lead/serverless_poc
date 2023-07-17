@@ -4,7 +4,7 @@ Ever wished to write code without the hustle of managing servers? Well, if that'
 
 ### Serverless Architecture
 
-[![](https://mermaid.ink/img/pako:eNqFkD1PwzAQhv-KdXMrBrYMSPkqIDFUTSQGzHDE19aSP1LHLkRV_zsXESTShc16_Tynu_cCnVcEGRwC9kfRFtIJkb9JKI0mFyW8i_VaSHhq263Y0SnRwCFnD6JgKt8-i0eM9Ikjo5Nb_PA7nyINN0bJxgvaD4Vik1wXtXezVc4Wobp7DTrSbFRsVKND66viH7RmtLlfQtN6JRozIxtG6q9IwaERDYWz7uh26tB7N_zOLP5etPzKYQWWgkWtuL3LBEqIR7IMZPxUtMdk-HLproxiir4ZXQdZDIlWkHrFtVUauXe7DGulow-Q7dEMdP0GCbR--A?type=png)](https://mermaid.live/edit#pako:eNqFkD1PwzAQhv-KdXMrBrYMSPkqIDFUTSQGzHDE19aSP1LHLkRV_zsXESTShc16_Tynu_cCnVcEGRwC9kfRFtIJkb9JKI0mFyW8i_VaSHhq263Y0SnRwCFnD6JgKt8-i0eM9Ikjo5Nb_PA7nyINN0bJxgvaD4Vik1wXtXezVc4Wobp7DTrSbFRsVKND66viH7RmtLlfQtN6JRozIxtG6q9IwaERDYWz7uh26tB7N_zOLP5etPzKYQWWgkWtuL3LBEqIR7IMZPxUtMdk-HLproxiir4ZXQdZDIlWkHrFtVUauXe7DGulow-Q7dEMdP0GCbR--A)
+[![Serverless Architecture](https://mermaid.ink/img/pako:eNqFkD1PwzAQhv-KdXMrBrYMSPkqIDFUTSQGzHDE19aSP1LHLkRV_zsXESTShc16_Tynu_cCnVcEGRwC9kfRFtIJkb9JKI0mFyW8i_VaSHhq263Y0SnRwCFnD6JgKt8-i0eM9Ikjo5Nb_PA7nyINN0bJxgvaD4Vik1wXtXezVc4Wobp7DTrSbFRsVKND66viH7RmtLlfQtN6JRozIxtG6q9IwaERDYWz7uh26tB7N_zOLP5etPzKYQWWgkWtuL3LBEqIR7IMZPxUtMdk-HLproxiir4ZXQdZDIlWkHrFtVUauXe7DGulow-Q7dEMdP0GCbR--A?type=png)](https://mermaid.live/edit#pako:eNqFkD1PwzAQhv-KdXMrBrYMSPkqIDFUTSQGzHDE19aSP1LHLkRV_zsXESTShc16_Tynu_cCnVcEGRwC9kfRFtIJkb9JKI0mFyW8i_VaSHhq263Y0SnRwCFnD6JgKt8-i0eM9Ikjo5Nb_PA7nyINN0bJxgvaD4Vik1wXtXezVc4Wobp7DTrSbFRsVKND66viH7RmtLlfQtN6JRozIxtG6q9IwaERDYWz7uh26tB7N_zOLP5etPzKYQWWgkWtuL3LBEqIR7IMZPxUtMdk-HLproxiir4ZXQdZDIlWkHrFtVUauXe7DGulow-Q7dEMdP0GCbR--A)
 
 Here is a diagram that explains the serverless architecture:
 
@@ -24,13 +24,35 @@ Now, let's explain the diagram:
 
 <b>Here is a diagram that explains how serverless architecture and serverless frameworks work together:</b>
 
-[![](https://mermaid.ink/img/pako:eNqFkUtPwzAMgP9KlPMmDtx6QOpzIIE0rZU4UA6m8baIPEoejGraf8dlHaK7cIvs77Nj-8g7K5AnfOeg37Mmaw1j6UvLcyXRhJa_suWStfy-adZsgx8RPQUpdscyotL1A1tBwAMMhI5uduY3Ngb0V0ZOxiPoNwGsiqYL0prJyicLQdw8OxlwMgoyisGAtkX2D1oSWt_OofF7OSg1IRUh5VdAZ0CxGt2n7PC6qu-t8Zea2d-J5ql0TK3GnlQHnULvWeVA48G699-1FdgrO_jL_D_OOfMEBnZ4yWR8wTU6DVLQLY4j1_KwR03tEnoK3EJUtMfWnAiFGGw9mI4nwUVc8NgLOkIhga6o58FSyGAdT7agPJ6-ASIulkc?type=png)](https://mermaid.live/edit#pako:eNqFkUtPwzAMgP9KlPMmDtx6QOpzIIE0rZU4UA6m8baIPEoejGraf8dlHaK7cIvs77Nj-8g7K5AnfOeg37Mmaw1j6UvLcyXRhJa_suWStfy-adZsgx8RPQUpdscyotL1A1tBwAMMhI5uduY3Ngb0V0ZOxiPoNwGsiqYL0prJyicLQdw8OxlwMgoyisGAtkX2D1oSWt_OofF7OSg1IRUh5VdAZ0CxGt2n7PC6qu-t8Zea2d-J5ql0TK3GnlQHnULvWeVA48G699-1FdgrO_jL_D_OOfMEBnZ4yWR8wTU6DVLQLY4j1_KwR03tEnoK3EJUtMfWnAiFGGw9mI4nwUVc8NgLOkIhga6o58FSyGAdT7agPJ6-ASIulkc)
+[![Serverless architecture and Serverless frameworks](https://mermaid.ink/img/pako:eNqFkUtPwzAMgP9KlPMmDtx6QOpzIIE0rZU4UA6m8baIPEoejGraf8dlHaK7cIvs77Nj-8g7K5AnfOeg37Mmaw1j6UvLcyXRhJa_suWStfy-adZsgx8RPQUpdscyotL1A1tBwAMMhI5uduY3Ngb0V0ZOxiPoNwGsiqYL0prJyicLQdw8OxlwMgoyisGAtkX2D1oSWt_OofF7OSg1IRUh5VdAZ0CxGt2n7PC6qu-t8Zea2d-J5ql0TK3GnlQHnULvWeVA48G699-1FdgrO_jL_D_OOfMEBnZ4yWR8wTU6DVLQLY4j1_KwR03tEnoK3EJUtMfWnAiFGGw9mI4nwUVc8NgLOkIhga6o58FSyGAdT7agPJ6-ASIulkc?type=png)](https://mermaid.live/edit#pako:eNqFkUtPwzAMgP9KlPMmDtx6QOpzIIE0rZU4UA6m8baIPEoejGraf8dlHaK7cIvs77Nj-8g7K5AnfOeg37Mmaw1j6UvLcyXRhJa_suWStfy-adZsgx8RPQUpdscyotL1A1tBwAMMhI5uduY3Ngb0V0ZOxiPoNwGsiqYL0prJyicLQdw8OxlwMgoyisGAtkX2D1oSWt_OofF7OSg1IRUh5VdAZ0CxGt2n7PC6qu-t8Zea2d-J5ql0TK3GnlQHnULvWeVA48G699-1FdgrO_jL_D_OOfMEBnZ4yWR8wTU6DVLQLY4j1_KwR03tEnoK3EJUtMfWnAiFGGw9mI4nwUVc8NgLOkIhga6o58FSyGAdT7agPJ6-ASIulkc)
 
 7. **Serverless Framework**: This is a free and open-source web framework written using Node.js. Serverless is the first framework developed for building applications on AWS Lambda, a serverless computing platform provided by Amazon as a part of Amazon Web Services. It deploys and manages the Lambda function and API Gateway.
 
 8. After processing the request, the Lambda function sends a response back to the API Gateway, which then forwards the response to the Client.
 
 This is a simplified view of how a serverless architecture and serverless frameworks work together. In a real-world application, there might be multiple Lambda functions, each serving a specific purpose. There might also be other services involved, such as AWS Cognito for user management, AWS IAM for access control, and more.
+
+<b>Here is a diagram that explains the deployment process of a serverless framework with architecture:</b>
+
+[![Deployment process](https://mermaid.ink/img/pako:eNqFkj1rwzAQhv-KuDmhQzcPBX-mhQ4hNmSoOqjWpTG1JFcfCSbkv_dUO4OhpJu493lPd690gdZIhAQ-rRiOrMm4Zix941DgCXszoOXwztZrxmFvO4-O5cRzoNITy4ir0Z7Q9ugcq6xQeDb2iyyxTTb5Chx6M7rZk5Mn3dcs702QlbFK-M7o2ZFPjtyioKtmRxEd2xe2odpZjPfQktBXoT6kYFXQ7X-dq7jnqIUyRXaP28Q9H2cinYjnptmyHX4HdP42aJSLSd6ZEMNaAmUEyhlAIR9-I70Nc0_cLEQ3GO3wr1uXUgorUEgRd5Je-BJBDv6IioCEjhIPIvQ0HddXQkXwph51C4m3AVcQBkkhFJ2gv6GWxVJ23lhIDqJ3eP0Bs8OuGA?type=png)](https://mermaid.live/edit#pako:eNqFkj1rwzAQhv-KuDmhQzcPBX-mhQ4hNmSoOqjWpTG1JFcfCSbkv_dUO4OhpJu493lPd690gdZIhAQ-rRiOrMm4Zix941DgCXszoOXwztZrxmFvO4-O5cRzoNITy4ir0Z7Q9ugcq6xQeDb2iyyxTTb5Chx6M7rZk5Mn3dcs702QlbFK-M7o2ZFPjtyioKtmRxEd2xe2odpZjPfQktBXoT6kYFXQ7X-dq7jnqIUyRXaP28Q9H2cinYjnptmyHX4HdP42aJSLSd6ZEMNaAmUEyhlAIR9-I70Nc0_cLEQ3GO3wr1uXUgorUEgRd5Je-BJBDv6IioCEjhIPIvQ0HddXQkXwph51C4m3AVcQBkkhFJ2gv6GWxVJ23lhIDqJ3eP0Bs8OuGA)
+
+1. **Developer**: This is you or your team who writes the serverless application code.
+
+2. **Serverless Framework**: This is a free and open-source web framework written using Node.js. Serverless is the first framework developed for building applications on AWS Lambda, a serverless computing platform provided by Amazon as a part of Amazon Web Services. It deploys and manages the serverless application.
+
+3. **AWS CloudFormation**: This is a service that helps you model and set up your Amazon Web Services resources so you can spend less time managing those resources and more time focusing on your applications that run in AWS. The Serverless Framework deploys your application using AWS CloudFormation.
+
+4. **API Gateway**: This is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs. AWS CloudFormation creates an API Gateway for your application.
+
+5. **Lambda Function**: This is where your business logic resides. AWS Lambda is a compute service that lets you run code without provisioning or managing servers. AWS CloudFormation creates a Lambda function for your application.
+
+6. **DynamoDB**: This is a NoSQL database service provided by AWS, which is known for low latencies and scalability. AWS CloudFormation can create a DynamoDB table for your application.
+
+7. **S3**: This is a storage service provided by AWS. AWS CloudFormation can create an S3 bucket for your application.
+
+8. After the deployment, the Developer can send an HTTP request to the API Gateway, which routes the request to the Lambda function. The Lambda function can read data from or write data to DynamoDB and S3. After processing the request, the Lambda function sends a response back to the API Gateway, which then forwards the response to the Developer.
+
+This is a simplified view of the deployment process of a serverless framework with architecture. In a real-world application, there might be multiple Lambda functions, each serving a specific purpose. There might also be other services involved, such as AWS Cognito for user management, AWS IAM for access control, and more.
 
 ### Getting Your Magic Carpet Ready
 
