@@ -22,9 +22,15 @@ Now, let's explain the diagram:
 
 6. **External Service**: Sometimes, your Lambda function might need to interact with external services. This could be any third-party service or another AWS service.
 
-7. After processing the request, the Lambda function sends a response back to the API Gateway, which then forwards the response to the Client.
+<b>Here is a diagram that explains how serverless architecture and serverless frameworks work together:</b>
 
-This is a simplified view of a serverless architecture. In a real-world application, there might be multiple Lambda functions, each serving a specific purpose. There might also be other services involved, such as AWS Cognito for user management, AWS IAM for access control, and more.
+[![](https://mermaid.ink/img/pako:eNqFkUtPwzAMgP9KlPMmDtx6QOpzIIE0rZU4UA6m8baIPEoejGraf8dlHaK7cIvs77Nj-8g7K5AnfOeg37Mmaw1j6UvLcyXRhJa_suWStfy-adZsgx8RPQUpdscyotL1A1tBwAMMhI5uduY3Ngb0V0ZOxiPoNwGsiqYL0prJyicLQdw8OxlwMgoyisGAtkX2D1oSWt_OofF7OSg1IRUh5VdAZ0CxGt2n7PC6qu-t8Zea2d-J5ql0TK3GnlQHnULvWeVA48G699-1FdgrO_jL_D_OOfMEBnZ4yWR8wTU6DVLQLY4j1_KwR03tEnoK3EJUtMfWnAiFGGw9mI4nwUVc8NgLOkIhga6o58FSyGAdT7agPJ6-ASIulkc?type=png)](https://mermaid.live/edit#pako:eNqFkUtPwzAMgP9KlPMmDtx6QOpzIIE0rZU4UA6m8baIPEoejGraf8dlHaK7cIvs77Nj-8g7K5AnfOeg37Mmaw1j6UvLcyXRhJa_suWStfy-adZsgx8RPQUpdscyotL1A1tBwAMMhI5uduY3Ngb0V0ZOxiPoNwGsiqYL0prJyicLQdw8OxlwMgoyisGAtkX2D1oSWt_OofF7OSg1IRUh5VdAZ0CxGt2n7PC6qu-t8Zea2d-J5ql0TK3GnlQHnULvWeVA48G699-1FdgrO_jL_D_OOfMEBnZ4yWR8wTU6DVLQLY4j1_KwR03tEnoK3EJUtMfWnAiFGGw9mI4nwUVc8NgLOkIhga6o58FSyGAdT7agPJ6-ASIulkc)
+
+7. **Serverless Framework**: This is a free and open-source web framework written using Node.js. Serverless is the first framework developed for building applications on AWS Lambda, a serverless computing platform provided by Amazon as a part of Amazon Web Services. It deploys and manages the Lambda function and API Gateway.
+
+8. After processing the request, the Lambda function sends a response back to the API Gateway, which then forwards the response to the Client.
+
+This is a simplified view of how a serverless architecture and serverless frameworks work together. In a real-world application, there might be multiple Lambda functions, each serving a specific purpose. There might also be other services involved, such as AWS Cognito for user management, AWS IAM for access control, and more.
 
 ### Getting Your Magic Carpet Ready
 
