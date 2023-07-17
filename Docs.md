@@ -54,6 +54,42 @@ This is a simplified view of how a serverless architecture and serverless framew
 
 This is a simplified view of the deployment process of a serverless framework with architecture. In a real-world application, there might be multiple Lambda functions, each serving a specific purpose. There might also be other services involved, such as AWS Cognito for user management, AWS IAM for access control, and more.
 
+### Services can interact with Serverless
+
+Here's a brief explanation of the services that can connect to AWS Lambda:
+
+1. **Amazon S3 (Simple Storage Service)**: Lambda can be set up to respond to events in S3 like the creation, deletion, or modification of files (objects) in a bucket.
+
+2. **Amazon DynamoDB**: Lambda can process DynamoDB Streams, which contain all changes to items in the DynamoDB table.
+
+3. **Amazon API Gateway**: API Gateway can route HTTP(S) requests to Lambda functions.
+
+4. **Amazon SQS (Simple Queue Service)**: Lambda can poll for messages on an SQS queue and then process them.
+
+5. **Amazon Kinesis**: Lambda can process Kinesis data streams or Kinesis Firehose data streams.
+
+6. **Amazon CloudWatch**: Lambda can respond to CloudWatch alarms or logs.
+
+Here is the diagram showing how AWS Lambda can interact with other AWS services:
+
+![AWS Architecture](aws_architecture.png)
+
+As shown in the diagram:
+
+1. **AWS Lambda** can interact with **Amazon S3**. For example, it can be triggered by changes in an S3 bucket, such as the creation or deletion of files.
+
+2. **AWS Lambda** can interact with **Amazon DynamoDB**. For instance, it can process DynamoDB Streams, which contain all changes to items in a DynamoDB table.
+
+3. **AWS Lambda** can interact with **Amazon API Gateway**. The API Gateway can route HTTP(S) requests to Lambda functions.
+
+4. **AWS Lambda** can interact with **Amazon SQS**. Lambda can poll for messages on an SQS queue and then process them.
+
+5. **AWS Lambda** can interact with **Amazon Kinesis**. Lambda can process Kinesis data streams or Kinesis Firehose data streams.
+
+6. **AWS Lambda** can interact with **Amazon CloudWatch**. Lambda can respond to CloudWatch alarms or logs.
+
+This diagram provides a visual representation of how AWS Lambda can be used in conjunction with other AWS services to build complex and scalable applications.
+
 ### Getting Your Magic Carpet Ready
 
 Before we embark on this journey, we need to have a few essentials handy:
