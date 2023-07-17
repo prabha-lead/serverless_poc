@@ -90,6 +90,22 @@ As shown in the diagram:
 
 This diagram provides a visual representation of how AWS Lambda can be used in conjunction with other AWS services to build complex and scalable applications.
 
+<b> Here is the diagram showing how AWS Cognito works with AWS Lambda: </b>
+
+![Cognito AWS Architecture](cognito_aws_architecture.png)
+
+As shown in the diagram:
+
+1. A **Client** (for example, a user on a web or mobile application) authenticates with **Amazon Cognito**. Amazon Cognito provides authentication, authorization, and user management for web and mobile apps. Users can sign in directly with a username and password, or through a third party such as Facebook, Amazon, or Google.
+
+2. **Amazon Cognito** can then trigger **AWS Lambda** functions based on certain events, such as user sign-up, user confirmation, or user sign-in. These Lambda functions can be used to add custom logic during the authentication flow.
+
+3. The **AWS Lambda** function can respond to the **Amazon API Gateway**, which is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
+
+4. The **Amazon API Gateway** then returns the response to the **Client**.
+
+This diagram provides a visual representation of how AWS Cognito can be used in conjunction with AWS Lambda to handle user authentication and execute custom logic during the authentication flow.
+
 ### Getting Your Magic Carpet Ready
 
 Before we embark on this journey, we need to have a few essentials handy:
