@@ -10,11 +10,11 @@ provider:
   profile: default
   region: 'eu-west-1'
   environment:
-    SOURCE_EMAIL: 'prabakarsece@gmail.com'
-    SQS_QUEUE_URL: 'https://sqs.eu-west-1.amazonaws.com/876007087343/test-sqs'
-    BUCKET_NAME: 'test-serverless-prabha'
-    COGNITO_USER_POOL_ID: 'eu-west-1_1Zi0TS5e2'
-    COGNITO_CLIENT_ID: '3v6ii92cdr2jrt7bh7qgt66css'
+    SOURCE_EMAIL: 'name@domain.com'
+    SQS_QUEUE_URL: 'https://sqs.<region>.amazonaws.com/<user-id>/<queue-name>'
+    BUCKET_NAME: '<bucket-name>'
+    COGNITO_USER_POOL_ID: 'eu-west-1_xxxxxxx'
+    COGNITO_CLIENT_ID: '3v6ii92cdr2jrtxxxxxx'
   
 
 functions:
