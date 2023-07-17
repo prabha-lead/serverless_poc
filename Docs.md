@@ -106,6 +106,22 @@ As shown in the diagram:
 
 This diagram provides a visual representation of how AWS Cognito can be used in conjunction with AWS Lambda to handle user authentication and execute custom logic during the authentication flow.
 
+<b> Here is the diagram showing how AWS Lambda, Amazon SQS, and Amazon SES interact: </b>
+
+![AWS Architecture](sqs_ses_aws_architecture_diagram.png)
+
+As shown in the diagram:
+
+1. A **Client** (for example, a user or an application) triggers the **Lambda: Process Info** function. This could be to process some information and prepare it for sending an email.
+
+2. The **Lambda: Process Info** function sends the processed information to **Amazon SQS**. Amazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. SQS is used here as a middleware to queue the information and ensure that it is reliably delivered to the next Lambda function. It also allows for tracking of failures, as messages that cannot be processed are moved to a dead-letter queue.
+
+3. **Amazon SQS** then triggers the **Lambda: Send Email** function. This function is responsible for sending the email.
+
+4. The **Lambda: Send Email** function sends the email via **Amazon SES**. Amazon SES is a cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails.
+
+This diagram provides a visual representation of how AWS Lambda, Amazon SQS, and Amazon SES can be used together to process information, queue it for reliable delivery, and send an email. The use of Amazon SQS as a middleware allows for robust error handling and tracking of failures.
+
 ### Getting Your Magic Carpet Ready
 
 Before we embark on this journey, we need to have a few essentials handy:
