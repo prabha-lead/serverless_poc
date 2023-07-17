@@ -42,15 +42,7 @@ This is a simplified view of how a serverless architecture and serverless framew
 
 3. **AWS CloudFormation**: This is a service that helps you model and set up your Amazon Web Services resources so you can spend less time managing those resources and more time focusing on your applications that run in AWS. The Serverless Framework deploys your application using AWS CloudFormation.
 
-4. **API Gateway**: This is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs. AWS CloudFormation creates an API Gateway for your application.
-
-5. **Lambda Function**: This is where your business logic resides. AWS Lambda is a compute service that lets you run code without provisioning or managing servers. AWS CloudFormation creates a Lambda function for your application.
-
-6. **DynamoDB**: This is a NoSQL database service provided by AWS, which is known for low latencies and scalability. AWS CloudFormation can create a DynamoDB table for your application.
-
-7. **S3**: This is a storage service provided by AWS. AWS CloudFormation can create an S3 bucket for your application.
-
-8. After the deployment, the Developer can send an HTTP request to the API Gateway, which routes the request to the Lambda function. The Lambda function can read data from or write data to DynamoDB and S3. After processing the request, the Lambda function sends a response back to the API Gateway, which then forwards the response to the Developer.
+After the deployment, the Developer can send an HTTP request to the API Gateway, which routes the request to the Lambda function. The Lambda function can read data from or write data to DynamoDB and S3. After processing the request, the Lambda function sends a response back to the API Gateway, which then forwards the response to the Developer.
 
 This is a simplified view of the deployment process of a serverless framework with architecture. In a real-world application, there might be multiple Lambda functions, each serving a specific purpose. There might also be other services involved, such as AWS Cognito for user management, AWS IAM for access control, and more.
 
