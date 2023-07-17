@@ -72,7 +72,7 @@ Here's a brief explanation of the services that can connect to AWS Lambda:
 
 Here is the diagram showing how AWS Lambda can interact with other AWS services:
 
-![AWS Architecture](aws_architecture.png)
+![AWS Architecture](assets/images/aws_architecture.png)
 
 As shown in the diagram:
 
@@ -92,7 +92,7 @@ This diagram provides a visual representation of how AWS Lambda can be used in c
 
 <b> Here is the diagram showing how AWS Cognito works with AWS Lambda: </b>
 
-![Cognito AWS Architecture](cognito_aws_architecture.png)
+![Cognito AWS Architecture](assets/images/cognito_aws_architecture.png)
 
 As shown in the diagram:
 
@@ -108,7 +108,7 @@ This diagram provides a visual representation of how AWS Cognito can be used in 
 
 <b> Here is the diagram showing how AWS Lambda, Amazon SQS, and Amazon SES interact: </b>
 
-![AWS Architecture](sqs_ses_aws_architecture_diagram.png)
+![AWS Architecture](assets/images/sqs_ses_aws_architecture_diagram.png)
 
 As shown in the diagram:
 
